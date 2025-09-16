@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #f9f9f9;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background: pink;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+  }
+  
+  /* Navigation Menu */
+  nav {
+    background: palevioletred;
+    padding: 15px;
+    font-size: 18px;
+  }
+  
+  /* Container utama */
+  .container {
+    display: flex;
+    padding: 10px;
+    min-height: 300px;
+  }
+  
+  /* kiri */
+  .left {
+    background: #C8E6C9;
+    flex: 1;
+    margin: 5px;
+    padding: 15px;
+  }
+  
+  /* main content */
+  main {
+    background: peachpuff;
+    flex: 2;
+    margin: 5px;
+    padding: 15px;
+  }
+  
+  /* kanan */
+  .right {
+    background: #C8E6C9;
+    flex: 1;
+    margin: 5px;
+    padding: 15px;
+  }
+  
+  /* Footer */
+  footer {
+    background: pink;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  
